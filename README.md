@@ -4,7 +4,7 @@ eachfile
 Iterate the files of a directory.
 
 ```javascript
-var eachfile = require("./eachfile");
+var eachfile = require("eachfile");
 
 eachfile.in('.', function(stats, next){
 	console.log(stats.name, stats.isFile());
@@ -15,8 +15,8 @@ eachfile.in('.', function(stats, next){
 Used with the [eachline](https://github.com/williamwicks/node-eachline) module:
 
 ```javascript
-var eachfile = require("./eachfile");
-var eachline = require("./eachline");
+var eachfile = require("eachfile");
+var eachline = require("eachline");
 
 eachfile.in('./data/', function(stats, next){
 
