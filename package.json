@@ -1,0 +1,25 @@
+{
+  "name": "eachfile",
+  "version": "7.7.7",
+  "description": "Iterate the files of a directory",
+  "main": "eachfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamwicks/eachfile.git"
+  },
+  "keywords": [
+    "iterate",
+    "files",
+    "foreach",
+    "each",
+    "eachfile"
+  ],
+  "author": "William Wicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamwicks/eachfile/issues"
+  }
+}
