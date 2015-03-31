@@ -12,7 +12,7 @@ eachfile.in('.', function(stats, next){
 });
 ```
 
-Used with the [eachline](https://github.com/williamwicks/node-eachline) module:
+Used with the [eachline](https://github.com/williamkapke/node-eachline) module:
 
 ```javascript
 var eachfile = require("eachfile");
